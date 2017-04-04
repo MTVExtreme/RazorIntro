@@ -1,5 +1,18 @@
 
-@model TheNeverEndingTaxForm.Models.Taxpayer
+@model TheNeverEndingTaxForm.Model.Taxpayer
 
-<h2>TheNeverEndingTaxFormn Index</h2>
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Welcome to the NeverEndingTaxForm <br />
+                <small>We're proud to say that here you never stop doing your taxes!!!</small>
+            </h1>
+            <button type="button" class="btn btn-lg">
+                @Html.ActionLink("See a Tax Form","Index", "TheNeverEndingTaxForm")
+            </button>
+        </div>
+    </div>
+</div>
+
 
